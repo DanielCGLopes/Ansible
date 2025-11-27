@@ -1,0 +1,14 @@
+# ARQUIVOS DE CHAVE SSH PRIVADA
+delta1
+
+# ARQUIVO DE INVENTÁRIO (CONTÉM IPS E CAMINHO DA CHAVE)
+hosts
+
+# ARQUIVOS DE CHAVE PÚBLICA (OPCIONAL - Menos sensível, mas bom para ignorar)
+delta1.pub
+deltadb.pub
+
+# VARIÁVEIS DE GRUPO COM SENHAS (SE FOR USAR SENHAS FIXAS)
+group_vars/all.yml
+group_vars/mysql.yml
+group_vars/wordpress.yml
